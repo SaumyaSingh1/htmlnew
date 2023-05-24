@@ -1,0 +1,206 @@
+body{
+
+margin:0px;
+padding:0px;
+}
+#bodyheader{
+/* background-image:url("file:///D:/Web%20Development/bgimg.jpg"); */
+height:65vh;
+width:100%;
+opacity:80%;
+margin-top:-100px;
+background-attachment:fixed;
+background-position:bottom left;
+background-size:cover;
+background-repeat: no-repeat;
+object-fit:contain;
+}
+.nav-list{
+list-style-type: none;
+font-size: 30px;
+text-align: center;
+}
+.nav-list li{
+display:inline-block;
+padding:70px 0px 0px 30px;
+text-transform:capitalize;
+}
+.nav-list li a{
+color: #aec1d1;
+font-family: cursive;
+text-decoration: none;
+transition: color 0.5s, border-bottom 0.3s;
+}
+/*color of list item changes in anchor tag as they are links now also it changes when we hover*/
+.nav-list li a:hover{
+color: rgb(60, 159, 168);
+border-bottom:5px solid black;
+}
+/* .nav-list li:target{
+    background-color:cyan;
+} */
+#myname{
+font-size:40px;
+font-family:'Times New Roman';
+color:rgb(121, 83, 210);
+text-align:center;
+}
+.social-icons{
+list-style-type: none;
+}
+.social-icons li a img{
+ display:inline-flex;
+
+}
+.social-icons li a img:hover{
+ box-shadow:0px 0px 6px 4px rgb(255, 255, 255);
+}
+#about-sec{
+   height:auto;
+}
+ #myphoto{
+   /* margin:auto; */
+   color:blue;
+}
+#myphoto img{
+    display:block;
+    position: relative;
+    top:-30px;
+    margin-left:auto;
+    margin-right:auto;
+border-radius:50%;
+}
+.para{
+    text-align:center;
+    font-size: medium;
+   font-family: Georgia;
+}
+mark{
+    background-color: rgb(150, 229, 97);
+}
+/* making individual sections in flex display */
+/*to vertically/horizontally arrange elements of a block*/
+section{
+height: 70vh;
+width:100%;
+display:flex; 
+flex-direction: column;
+align-items: center;
+}
+section:nth-child(2n){
+background-color:#c3e2fe;
+}
+/* each section are in 2n parts even part will be beige odd part will be blue*/
+section:nth-child(2n+1){
+    background-color:rgb(235, 232, 232);
+}
+section:target{
+    background-color: rgb(60, 86, 93);
+}
+/* //skill section */
+
+/* #logo img{
+border-radius:50%;
+/* padding-right:5px; */
+
+.head{
+    display:inline-block;
+/* margin:0px 10px 10px 0px; */
+}
+.heading{
+    font-size: 2rem;
+    font-family: georgia;
+    font-weight: 100;
+    color: rgb(2, 6, 76);
+
+}
+.logo img{
+    margin-left: 35rem;
+border-radius: 50%;
+}
+.skill-indicator{
+display:flex;
+width: 75%;
+/* padding: 10px;
+margin-bottom: 30px; */
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.skill-total{
+background-color: rgb(183, 181, 181);
+height: 2.3rem;
+width:11rem;
+border-radius:1.9rem;
+/* box-shadow: 1px 1px 2px 1px #c6e403 inset; */
+overflow:hidden;
+margin:25px;
+}
+/* applying changes to only first child of skill total class */
+/* .skill-total>div{
+    border-radius: 20px 0px 0px 20px;
+    /* box-shadow: 1px 1px 5px 2px #989882; */
+
+.eighty-percent{
+    background-color: rgb(123, 10, 81);
+    height:inherit;
+    box-shadow: 1px 1px 5px 2px #7c7c78;
+   width:80%;
+}
+.skill-name{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.eightyfive-percent{
+    background-color: rgb(64, 26, 118);
+    height:inherit;
+   width:85%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+.seventyfive-percent{
+    background-color:  rgb(110, 62, 102);
+    height:inherit;
+   width:75%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+.sixty-percent{
+    background-color:  rgb(99, 123, 64);
+    height:inherit;
+   width:60%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+.sixtyfive-percent{
+    background-color: rgb(99, 123, 66);
+    height:inherit;
+   width:65%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+.twenty-percent{
+    background-color: rgb(63, 93, 87);
+    height:inherit;
+   width:20%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+.ten-percent{
+    background-color: rgb(65, 99, 92);
+    height:inherit;
+   width:10%;
+   box-shadow: 1px 1px 5px 2px #7c7c78;
+}
+/* EDUCATION SECTION */
+.main-edul{
+margin-right:30%;
+}
+.leftplace{
+  margin-top:-100px;
+    color:rgb(237, 147, 12);
+}
+.main-edur{
+    
+     margin-top:-10px; 
+margin-left:60%; 
+}
+.rightplace{
+/* margin-top:-60px; */
+color:rgb(237, 147, 12);
+}
